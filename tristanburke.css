@@ -1,0 +1,188 @@
+/*!
+ * Tristan Burke Site CSS
+ * Copyright 2017 Tristan Burke
+ */
+body{
+    font-family: Courier;
+    padding-top: 0px;
+    padding-bottom: 50px;
+    background: #ffffff;
+    color: #000000;
+}
+.btn-primary-outline {
+    background-color: #C0C0C0;
+    border-color: black;
+    color:black;
+}
+.btn-primary-outline:hover {
+    background-color: white;
+    border-color: black;
+    color: #C0C0C0;
+}
+.converter{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.main a:link{
+    font-weight: Bold;
+}
+.main a:hover{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+}
+.main a:visited{
+    text-decoration: none;
+    color: black;
+}
+.row-centered {
+    text-align:center;
+}
+.v-center{
+    display:inline-block;
+    vertical-align: middle;
+    float: none;
+}
+.spacing{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.spacing2{
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+.spacing3{
+    padding-top: 5px;
+    padding-bottom: 30px;
+}
+.spacing4{
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.navbar-brand{
+    font-size: 14px;
+}
+.navbar-brand:hover{
+    text-decoration: none;
+    background-color: BLACK;
+    color: WHITE;
+}
+.home{
+    padding-top: 80px;
+    padding-bottom: 30px;
+    text-align: center;
+    align-content: center;
+}
+.home .jumbotron{
+    background-color: transparent;
+}
+.side-page{
+    text-align: center;
+    align-content: center;
+    padding-top: 5px;
+    padding-bottom: 30px;
+}
+
+.element{
+    font-size: 30px;
+}
+p{
+    font-family: "Courier New";
+    color: black;
+    font-size: 13px;
+}
+a{
+   color: inherit;
+}
+.input-boxes{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.pages a:link{
+    font-weight: bold;
+    color: black;
+}
+.pages a:hover{
+    text-decoration: none;
+    background-color: BLACK;
+    color: WHITE;
+}
+.home-links a:hover{
+    text-decoration: none;
+    background-color: BLACK;
+    color: WHITE;
+}
+.container-fluid a:hover{
+    text-decoration: none;
+    background-color: BLACK;
+    color: WHITE;
+}
+.btn:hover{
+    background-color: BLACK;
+    color:WHITE;
+}
+.center-wrapper{
+    position: absolute;
+    left: 50%;
+    bottom: 0%;
+}
+/** Project Page **/
+.project{
+    margin-bottom: 50px;
+    position: relative;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+}
+.project a:link{
+    font-weight: bold;
+    color: black;
+}
+.project a:hover{
+    text-decoration: none;
+    background-color: BLACK;
+    color: WHITE;
+}
+.project a:visited{
+    text-decoration: none;
+    color:black;
+}
+.proj-btn{
+    position: relative;
+    bottom: 0;
+    left: -50%;
+}
+.proj-btn a{
+    background-color: #C0C0C0;
+    color:BLACK;
+}
+.proj-btn a:hover{
+    background-color: black;
+    color: white;
+}
+.proj-btn a:link{
+    font-weight: normal;
+}
+
+/** Typed cursor from Typed.js by Matt Bolt **/
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
